@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "tsc && clear && nodemon --inspect --ignore node_modules build/server.js",
-    "dev": "clear && ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/server.ts"
+    "dev": "clear && ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/server.ts",
+    "lint": "eslint . --ext .ts",
+    "lint-fix": "eslint . --ext .ts --fix"
+  }
   },
   "keywords": [],
   "author": "",

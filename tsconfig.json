@@ -8,6 +8,11 @@
     "strict": true,
     "noImplicitAny": true,
     "baseUrl": "./",
+    "paths": {
+      "@config/*": ["src/config/*"],
+      "@modules/*": ["src/modules/*"],
+      "@shared/*": ["src/shared/*"]
+    },
 
     "moduleResolution": "node",
     "esModuleInterop": true,

@@ -9,8 +9,8 @@ export class Routes {
   }
 
   private routes(): void {
-    this.router.get('/', (req: Request, res: Response) => {
-      res.send('Hello World!');
-    });
+    this.router.get('/', (req: Request, res: Response) =>
+      res.send('Hello World!'),
+    );
   }
 }
